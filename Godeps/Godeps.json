@@ -1,6 +1,6 @@
 {
-	"ImportPath": "github.com/CodisLabs/codis",
-	"GoVersion": "go1.8",
+	"ImportPath": "github.com/jameBoy/codis",
+	"GoVersion": "go1.9",
 	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
@@ -8,8 +8,113 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/BurntSushi/toml",
-			"Comment": "v0.2.0-21-g9906417",
-			"Rev": "99064174e013895bbd9b025c31100bd1d9b590ca"
+			"Comment": "v0.3.0",
+			"Rev": "b26d9c308763d68093482582cea63d69be07a0f0"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/models",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/models/etcd",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/models/fs",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/models/zk",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/proxy",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/proxy/redis",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/topom",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/assert",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/bufio2",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/bytesize",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/errors",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/log",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/math2",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/redis",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/rpc",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/sync2",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/sync2/atomic2",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/timesize",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/trace",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
+		},
+		{
+			"ImportPath": "github.com/CodisLabs/codis/pkg/utils/unsafe2",
+			"Comment": "3.2.1-3-g60a58fa4",
+			"Rev": "60a58fa4b1c1597c71f8c613f4af686064faa39b"
 		},
 		{
 			"ImportPath": "github.com/codegangsta/inject",
@@ -58,13 +163,13 @@
 		},
 		{
 			"ImportPath": "github.com/garyburd/redigo/internal",
-			"Comment": "v1.0.0-20-g4854517",
-			"Rev": "48545177e92ae3e7bcdbd50b42f7a139e6a268da"
+			"Comment": "v1.3.0-3-gb389d53",
+			"Rev": "b389d5392e340092642eec4e36754e0280ad1f8e"
 		},
 		{
 			"ImportPath": "github.com/garyburd/redigo/redis",
-			"Comment": "v1.0.0-20-g4854517",
-			"Rev": "48545177e92ae3e7bcdbd50b42f7a139e6a268da"
+			"Comment": "v1.3.0-3-gb389d53",
+			"Rev": "b389d5392e340092642eec4e36754e0280ad1f8e"
 		},
 		{
 			"ImportPath": "github.com/go-martini/martini",
@@ -116,7 +221,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",
-			"Rev": "242b6b35177ec3909636b6cf6a47e8c2c6324b5d"
+			"Rev": "ffcf1bedda3b04ebb15a168a59800a73d6dc0f4d"
 		},
 		{
 			"ImportPath": "gopkg.in/alexcesaro/statsd.v2",
