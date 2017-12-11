@@ -1,0 +1,80 @@
+package: github.com/jameBoy/codis
+import:
+- package: github.com/BurntSushi/toml
+  version: ^0.3.0
+- package: github.com/CodisLabs/codis
+  version: 60a58fa4b1c1597c71f8c613f4af686064faa39b
+  subpackages:
+  - pkg/models
+  - pkg/models/etcd
+  - pkg/models/fs
+  - pkg/models/zk
+  - pkg/proxy
+  - pkg/proxy/redis
+  - pkg/topom
+  - pkg/utils
+  - pkg/utils/assert
+  - pkg/utils/bufio2
+  - pkg/utils/bytesize
+  - pkg/utils/errors
+  - pkg/utils/log
+  - pkg/utils/math2
+  - pkg/utils/redis
+  - pkg/utils/rpc
+  - pkg/utils/sync2
+  - pkg/utils/sync2/atomic2
+  - pkg/utils/timesize
+  - pkg/utils/trace
+  - pkg/utils/unsafe2
+- package: github.com/codegangsta/inject
+  version: 33e0aa1cb7c019ccc3fbe049a8262a6403d30504
+- package: github.com/coreos/etcd
+  version: ^3.0.17
+  subpackages:
+  - client
+  - pkg/pathutil
+  - pkg/types
+- package: github.com/docopt/docopt-go
+  version: ^0.6.2
+- package: github.com/emirpasic/gods
+  version: ^1.9.0
+  subpackages:
+  - containers
+  - trees
+  - trees/redblacktree
+  - utils
+- package: github.com/garyburd/redigo
+  version: b389d5392e340092642eec4e36754e0280ad1f8e
+  subpackages:
+  - internal
+  - redis
+- package: github.com/go-martini/martini
+  version: fe605b5cd210047ae3bb73d2b69a5b912a9b423d
+- package: github.com/influxdata/influxdb
+  version: 8c2cfd14af2511580277ddfd7a834b6aaa5f19ab
+  subpackages:
+  - client/v2
+  - models
+  - pkg/escape
+- package: github.com/martini-contrib/binding
+  version: 05d3e151b6cf34dacac6306226a33db68459a3b5
+- package: github.com/martini-contrib/gzip
+  version: 6c035326b43f79aa18793d2f1db512d21253ea61
+- package: github.com/martini-contrib/render
+  version: ec18f8345a1181146728238980606fb1d6f40e8c
+- package: github.com/oxtoacart/bpool
+  version: 4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6
+- package: github.com/samuel/go-zookeeper
+  version: 1d7be4effb13d2d908342d349d71a284a7542693
+  subpackages:
+  - zk
+- package: github.com/spinlock/jemalloc-go
+  version: 26719b2ee6186ef794cd50b604f8d765d3be5a30
+- package: github.com/ugorji/go
+  version: ded73eae5db7e7a0ef6f55aace87a2873c5d2b74
+  subpackages:
+  - codec
+- package: golang.org/x/net/context
+  version: ffcf1bedda3b04ebb15a168a59800a73d6dc0f4d
+- package: gopkg.in/alexcesaro/statsd.v2
+  version: 7fea3f0d2fab1ad973e641e51dba45443a311a90
